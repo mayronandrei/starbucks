@@ -1,148 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="src/css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="src/css/styles.css" />
     <title>Starbucks</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Header -->
     <header>
-        <nav class="navbar">
-            <img src="src/images/logo-starbucks.png" alt="logostarbucks" class="logo">
-            <button class="btn btn-mobile"><i class="fas fa-bars"></i></button>
-            <ul id="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#trending">Em alta</a></li>
-                <li><a href="#about">Sobre nós</a></li>
-                <li><a href="#products">Novidades</a></li>                 
-            </ul>
-            <a href="" class="btn btn-default">Contatar</a>
-        </nav>
+      <nav class="navbar">
+        <img
+          src="src/images/logo-starbucks.png"
+          alt="logostarbucks"
+          class="logo"
+        />
+        <button class="btn btn-mobile"><i class="fas fa-bars"></i></button>
+        <ul id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#trending">Em alta</a></li>
+          <li><a href="#about">Sobre nós</a></li>
+          <li><a href="#products">Novidades</a></li>
+        </ul>
+        <a href="" class="btn btn-default">Contatar</a>
+      </nav>
     </header>
     <!-- Main  -->
-     <main id="container">
-        <!-- Home -->
-         <section id="home">
-            <img src="src/images/detail.png" alt="starbucksdrink" class="home-image">
-            <h1 class="home-title">Mais que café uma <span>experiência.</span></h1>
-            <p class="home-description">Descubra cafés icônicos e sabores únicos e a energia perfeita para cada parte do seu dia.</p>
-            <div class="home-actions">
-                <a href="#products" class="btn btn-default">conhecer</a>
-                <a href="#products" class="btn btn-outlined">contatar</a>
-
+    <main id="container">
+      <!-- Home -->
+      <section id="home">
+        <img
+          src="src/images/detail.png"
+          alt="starbucksdrink"
+          class="home-image"
+        />
+        <h1 class="home-title">Mais que café uma <span>experiência.</span></h1>
+        <p class="home-description">
+          Descubra cafés icônicos e sabores únicos e a energia perfeita para
+          cada parte do seu dia.
+        </p>
+        <div class="home-actions">
+          <a href="#products" class="btn btn-default">conhecer</a>
+          <a href="#products" class="btn btn-outlined">contatar</a>
+        </div>
+      </section>
+      <!-- Trading -->
+      <section id="trending">
+        <h2 class="title">Em alta</h2>
+        <div class="trending-cards">
+          <div class="trending-card">
+            <img
+              src="src/images/trending/card1.png"
+              alt="Product 1"
+              class="trending-image"
+            />
+            <div class="trending-rate">
+              <p>5 <i class="fas fa-star"></i></p>
             </div>
-         </section>
-         <!-- Trading -->
-         <section id="trending">
-            <h2 class="title">Em alta</h2>
-            <div class="trending-cards">
-                <div class="trending-card">
-                    <img src="src/images/trending/card1.png" alt="Product 1" class="trending-image">
-                    <div class="trending-rate">
-                        <p>5 <i class="fas fa-star"></i></p>
-                    </div>   
-                        <p class="trending-card-description">
-                            Frapuccino 
-                            <span>
-                                Avelã
-                            </span>
-                        </p>                    
-                </div>             
-                <div class="trending-card">
-                    <img src="src/images/trending/card2.png" alt="Product 1" class="trending-image">
-                    <div class="trending-rate">
-                        <p>5 <i class="fas fa-star"></i></p>
-                    </div>   
-                        <p class="trending-card-description">
-                            Frapuccino 
-                            <span>
-                                Pistache
-                            </span>
-                        </p>                    
-                </div>             
-                <div class="trending-card">
-                    <img src="src/images/trending/card3.png" alt="Product 1" class="trending-image">
-                    <div class="trending-rate">
-                        <p>5 <i class="fas fa-star"></i></p>
-                    </div>   
-                        <p class="trending-card-description">
-                            Frapuccino 
-                            <span>
-                                Morango
-                            </span>
-                        </p>                    
-                </div>             
-             </div>
-         </section>
-         <!-- About -->
-          <section id="about">
-            <h2 class="title">Sobre nós</h2>
-            <div class="about-content">
-                <img src="src/images/about/about-us.png" alt="" class="about-img">
-                <div class="about-info">
-                    <h3>Nossa <span>História</span></h3>
-                
-                <p> Desde o início, a Starbucks tem se dedicado a oferecer os melhores cafés e  <span>experiências únicas</span> para nossos clientes em todo o mundo.</p>  
-                </div> 
-
-                <div class="about-info">
-                    <h3>Nosso <span>Propósito</span></h3>
-                
-                <p> Inspirar e cuidar de cada pessoa, uma a uma, <span> criando conexões </span> significativas e oferecendo experiências memoráveis.</p>  
-                </div>          
+            <p class="trending-card-description">
+              Frapuccino
+              <span> Avelã </span>
+            </p>
+          </div>
+          <div class="trending-card">
+            <img
+              src="src/images/trending/card2.png"
+              alt="Product 1"
+              class="trending-image"
+            />
+            <div class="trending-rate">
+              <p>5 <i class="fas fa-star"></i></p>
             </div>
-          </section>
-         <!-- Novidades -->
-          <section id="products">
-            <h2 class="title">
-                Novidades
-            </h2>
-
-            <div class="products-cards">
-                <div class="product-card">
-                    <img src="src/images/products/1.png" alt="">
-                    <div class="product-content">
-                        <h3>
-                            Moccha
-                            <span>Chocolate</span>
-                        </h3>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <img src="src/images/products/2.png" alt="">
-                    <div class="product-content">
-                        <h3>
-                            Moccha
-                            <span>Morango</span>
-                        </h3>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <img src="src/images/products/3.png" alt="">
-                    <div class="product-content">
-                        <h3>
-                            Moccha
-                            <span>Café</span>
-                        </h3>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <img src="src/images/products/4.png" alt="">
-                    <div class="product-content">
-                        <h3>
-                            Moccha
-                            <span>Manga</span>
-                        </h3>
-                    </div>
-                </div>                
+            <p class="trending-card-description">
+              Frapuccino
+              <span> Pistache </span>
+            </p>
+          </div>
+          <div class="trending-card">
+            <img
+              src="src/images/trending/card3.png"
+              alt="Product 1"
+              class="trending-image"
+            />
+            <div class="trending-rate">
+              <p>5 <i class="fas fa-star"></i></p>
             </div>
-          </section>
-     </main>
-     
+            <p class="trending-card-description">
+              Frapuccino
+              <span> Morango </span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- About -->
+      <section id="about">
+        <h2 class="title">Sobre nós</h2>
+        <div class="about-content">
+          <img src="src/images/about/about-us.png" alt="" class="about-img" />
+          <div class="about-info">
+            <h3>Nossa <span>História</span></h3>
 
-    <script src="js/script.js"></script>
-</body>
+            <p>
+              Desde o início, a Starbucks tem se dedicado a oferecer os melhores
+              cafés e <span>experiências únicas</span> para nossos clientes em
+              todo o mundo.
+            </p>
+          </div>
+
+          <div class="about-info">
+            <h3>Nosso <span>Propósito</span></h3>
+
+            <p>
+              Inspirar e cuidar de cada pessoa, uma a uma,
+              <span> criando conexões </span> significativas e oferecendo
+              experiências memoráveis.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Novidades -->
+      <section id="products">
+        <h2 class="title">Novidades</h2>
+
+        <div class="products-cards">
+          <div class="product-card">
+            <img src="src/images/products/1.png" alt="" />
+            <div class="product-content">
+              <h3>
+                Moccha
+                <span>Chocolate</span>
+              </h3>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="src/images/products/2.png" alt="" />
+            <div class="product-content">
+              <h3>
+                Moccha
+                <span>Morango</span>
+              </h3>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="src/images/products/3.png" alt="" />
+            <div class="product-content">
+              <h3>
+                Moccha
+                <span>Café</span>
+              </h3>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="src/images/products/4.png" alt="" />
+            <div class="product-content">
+              <h3>
+                Moccha
+                <span>Manga</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="src/js/script.js"></script>
+  </body>
 </html>
