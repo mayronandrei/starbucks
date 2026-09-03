@@ -76,6 +76,10 @@ a.btn {
 }
 
 /* HOME */
+section {
+  scroll-margin-top: 86px;
+}
+
 #home {
   display: flex;
   flex-direction: column;
