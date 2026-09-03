@@ -315,6 +315,17 @@ p span {
 }
 
 @media (min-width: 1200px) {
+  .products-cards {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    width: 100%;
+  }
+
+  .product-card img {
+    width: 100%;
+    max-width: 250px;
+  }
+
   #about {
     margin: 4%;
     justify-content: center;
